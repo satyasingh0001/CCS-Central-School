@@ -1,0 +1,47 @@
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
+
+.presentBtn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+}
+
+.absentBtn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+}

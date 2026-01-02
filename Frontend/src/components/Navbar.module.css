@@ -1,0 +1,72 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #003366;
+  padding: 16px 30px;
+  position: relative;
+}
+
+.nav h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.menu a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.active {
+  background: white;
+  color: #003366 !important;
+  font-weight: 600;
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+/*  MOBILE VIEW */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background: #003366;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    padding: 15px 0;
+  }
+
+  .menu li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .show {
+    display: flex;
+  }
+}

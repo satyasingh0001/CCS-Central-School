@@ -1,0 +1,32 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.present {
+  background: #c8f7c5;
+  color: green;
+  padding: 4px 6px;
+  margin: 2px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.absent {
+  background: #f7c5c5;
+  color: red;
+  padding: 4px 6px;
+  margin: 2px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 600;
+}

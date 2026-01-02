@@ -1,0 +1,28 @@
+.container {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.present {
+  background: #c8f7c5;
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  background: #f7c5c5;
+  color: red;
+  font-weight: bold;
+}

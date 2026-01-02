@@ -1,0 +1,60 @@
+.container {
+  margin-top: 40px;
+}
+
+.barChart {
+  margin-top: 20px;
+}
+
+.barItem {
+  margin-bottom: 15px;
+}
+
+.barItem span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #eee;
+  height: 24px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.barFill {
+  background: #4caf50;
+  height: 100%;
+  color: white;
+  padding-left: 8px;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.pieSection {
+  margin-top: 40px;
+}
+
+.pie {
+  display: flex;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.present {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+.absent {
+  background: #f44336;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  line-height: 40px;
+}
